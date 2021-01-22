@@ -10,18 +10,11 @@
 		"Resource": "arn:aws:logs:*:*:*"
 	},
 	{
-		"Effect": "Allow",
 		"Action": [
-			"s3:GetObject"
+			"ec2:RunIntances"
 		],
-		"Resource": "arn:aws:s3:::bucket/*"
-	},
-	{
 		"Effect": "Allow",
-		"Action": [
-			"s3:PutObject"
-		],
-		"Resource": "arn:aws:s3:::bucket/*"
-	}
+		"Resource": "*"
+		}
 	]
 }
