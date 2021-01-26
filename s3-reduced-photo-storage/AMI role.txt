@@ -23,5 +23,5 @@
 		],
 		"Resource": "arn:aws:s3:::bucket/*"
 	}
-	]
+]
 }
